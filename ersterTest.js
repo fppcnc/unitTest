@@ -1,8 +1,8 @@
 function division(left, right) {
-    if (right === 0){
+    if (right !== 0){
         return left / right;
     } else {
-        console.log('kann nicht durch Null teilen')
+        return ('kann nicht durch Null teilen')
     }
 }
 
